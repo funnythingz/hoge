@@ -1,0 +1,5 @@
+# sinatra-template
+
+```
+$ bundle install
+```
