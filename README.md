@@ -1,15 +1,23 @@
 # sinatra-template
 
-install
+## install
 
 ```
 $ bundle install
 ```
 
-run
+## run
 
 ```
 $ rackup -p 8888
 ```
 
 access to http://localhost:8888
+
+## sass
+
+sass:compile
+
+```
+$ rake sass:compile
+```

@@ -9,3 +9,5 @@ gem 'sinatra'
 gem 'rake'
 
 gem 'slim'
+gem 'sass'
+gem 'bourbon'

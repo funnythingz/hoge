@@ -1,5 +1,8 @@
-task default: %w[start]
+task default: %w[]
 
-task :start do
-  ruby 'app.rb -p 8888'
+namespace :sass do
+  desc 'sass:compile'
+  task :compile do
+    sh 'sass ./assets/sass/styles.sass ./public/styles.css'
+  end
 end
