@@ -9,7 +9,7 @@ $ bundle install
 run
 
 ```
-$ rake start
+$ rackup -p 8888
 ```
 
 access to http://localhost:8888
