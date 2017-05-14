@@ -6,6 +6,29 @@
 $ bundle install
 ```
 
+## tree
+
+```
+.
+├── Gemfile
+├── Gemfile.lock
+├── README.md
+├── Rakefile
+├── app.rb
+├── assets
+│   └── sass
+│       ├── bourbon
+│       ├── modules
+│       └── styles.sass
+├── config.ru
+├── public
+│   ├── styles.css
+│   └── styles.css.map
+└── views
+    ├── app.slim
+    └── home.slim
+```
+
 ## run
 
 development
