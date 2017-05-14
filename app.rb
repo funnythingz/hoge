@@ -3,7 +3,7 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
   get '/' do
-    'hello world'
+    slim :home, layout: :app
   end
 
   run! if app_file == $0
