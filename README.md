@@ -21,3 +21,9 @@ sass:compile
 ```
 $ rake sass:compile
 ```
+
+sass:watch
+
+```
+$ rake sass:watch
+```
