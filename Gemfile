@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'rake'
 
 gem 'slim'
