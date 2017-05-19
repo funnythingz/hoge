@@ -9,6 +9,9 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'rake'
 
+gem 'sprockets'
+gem 'sprockets-helpers'
+
 gem 'slim'
 gem 'sass'
 gem 'bourbon'
