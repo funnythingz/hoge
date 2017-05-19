@@ -5,7 +5,8 @@ html
     title
       | template
 
-    link rel="stylesheet" media="all" href="styles.css"
+    link rel="stylesheet" media="all" href="#{stylesheet_path 'styles'}"
+    script src="#{javascript_path 'app'}"
 
   body
     == yield
