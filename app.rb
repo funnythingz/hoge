@@ -1,7 +1,5 @@
-require 'sinatra/base'
-require 'sinatra/reloader'
-require 'sprockets'
-require 'sprockets-helpers'
+require 'bundler'
+Bundler.require
 
 class App < Sinatra::Base
 
@@ -11,6 +9,7 @@ class App < Sinatra::Base
     assets.append_path File.join(root, 'assets', 'css')
     assets.append_path File.join(root, 'assets', 'js')
     assets.append_path File.join(root, 'assets', 'images')
+    assets.append_path File.join(root, 'assets', 'fonts')
 
     Sprockets::Helpers.configure do |config|
       config.environment = assets

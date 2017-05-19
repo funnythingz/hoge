@@ -11,13 +11,13 @@ $ bundle install
 development
 
 ```
-$ rackup -p 8888
+$ bundle exec rackup -p 8888
 ```
 
 production
 
 ```
-$ RACK_ENV=production rackup -p 8888
+$ bundle exec RACK_ENV=production rackup -p 8888
 ```
 
 access to http://localhost:8888
