@@ -14,7 +14,9 @@ class App < Sinatra::Base
     Sprockets::Helpers.configure do |config|
       config.environment = assets
       config.prefix      = '/assets'
+      config.manifest    = Sprockets::Manifest.new(assets, 'manifset.json')
       config.digest      = true
+      config.public_path = '/public'
     end
   end
 
